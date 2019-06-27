@@ -8,31 +8,41 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="center">
-<div class="shadow-none p-3 mb-5 bg-light rounded w-50">No shadow</div>
-<div class="shadow-sm p-3 mb-5 bg-white rounded w-50">Small shadow</div>
-<div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
-<div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div>
 <div class="container-fluid">
+<div class="row banner2">
+<div class="col">
 <nav class="navbar navbar-expand-lg navbar-light">
-<a class="navbar-brand mr-auto">ATOMIST</a>
+<a class="navbar-brand whitetext">ATOMIST</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-<div class="collapse navbar-collapse"  id="navbarSupportedContent">
-<a class="nav-link" href="#">Developer</a>
-	<a class="nav-link" href="#">Pricing</a>
-	<a class="nav-link" href="#">Docs</a>
-	<a class="nav-link" href="#">Blog</a>
-	<a class="nav-link" href="#">Log in</a>
-	<button class="nav-link getstarted">Get Started</button>
+<div class="collapse navbar-collapse whitetext"  id="navbarSupportedContent">
+<a class="nav-link mx-auto whitetext" href="#">Developer</a>
+	<a class="nav-link mx-auto whitetext" href="#">Pricing</a>
+	<a class="nav-link mx-auto whitetext" href="#">Docs</a>
+	<a class="nav-link mx-auto whitetext" href="#">Blog</a>
+	<a class="nav-link mx-auto whitetext" href="#">Log in</a>
+	<button class="nav-link getstarted mx-auto">Get Started</button>
 </div>
 </nav>
-<h1 class="center">Modernize Delivery of Cloud Native Apps</h1>
-<p class="center">Event-driven delivery automation built for modern applications. Programmable in code, ChatOps comes standard.</p>
+<div class="col-md-10 mx-auto col-12 bigmar whitetext">
+<h1 class="center whitetext">Modernize Delivery of Cloud Native Apps</h1>
+<p class="center whitetext">Event-driven delivery automation built for modern applications. Programmable in code, ChatOps comes standard.</p>
 <img src="https://atomist.com/img/App-SDM-Goals-Execution.png" class="img-fluid" alt="Responsive image">
 <h6>Move beyond pipelines.</h6>
 <p>Get event-driven delivery automation that scales across hundreds or thousands of projects. Define automated delivery flows that smartly review, autofix, build, test and deploy.</p>
 <button class="getstarted pad">Get Started for Free</button>
+
+</div>
+
+
+</div>
+
+</div>
+<div class="bigmar">
+
+
+
 <h3>The Modern Delivery Platform</h3>
 <div class="row">
 <div class="col-12 col-md-5 mx-auto lightgrey mar"><img src="https://atomist.com/img/illo-automatic-delivery.png" class="lol img-fluid"></img><h6>Automated Delivery for All of Your Projects</h6><p>Evolve delivery flow in one place, not repository by repository. Get consistent, automated delivery across all projects with an event-driven Software Delivery Machine.
@@ -48,48 +58,61 @@
 <div class="col-12 col-md-5 mx-auto lightgrey mar"><img src="https://atomist.com/img/illo-fully-programmable.png" class="lol img-fluid"></img><h6>Fully Programmable Delivery That Evolves with You</h6><p>Change your delivery by changing code. Whether you’re adding vulnerability scanning, pushing Docker images to a different artifact store, or adding your own bot commands your delivery process is completely programmable. We think code speaks louder than YAML.
 </p></div>
 </div>
+<br>
 <button class="getstarted pad">Get Started for Free</button>
-<h1>The Software Delivery Machine</h1>
+</div>
+<div class="w80 bigmar">
+<h2>The Software Delivery Machine</h2>
 <p>At the heart of Atomist is the Software Delivery Machine (SDM).</p>
 <p>It’s an event-driven delivery automation engine that maintains a rich model of your app and delivery flow and is fully programmable in code.</p>
-<ul>
-<li><div><h3>Command Interface</h3><p>The Atomist command interface gives you direct control to take actions like creating a new project or approving a deployment. Atomist has a rich command framework for you to create custom commands that are available to everyone in chat or via command-line. Commands can be attached to chat notifications so that users can take action right there.
-</p></div></li>
-<li><div><h3>ChatOps</h3><p>Put complete visibility into the delivery flow in front of everyone in your team with correlated and actionable notifications directly in chat. Notifications keep everyone up to speed. Native chatops with bot support in Slack and Microsoft Teams means better team alignment and collaboration.
-</p></div></li>
-<li><div><h3>Event Hub
+</div>
+<div class="row lightgrey">
+<div class="mx-auto col-10"><div class="left"><h5>Command Interface</h5><p>The Atomist command interface gives you direct control to take actions like creating a new project or approving a deployment. Atomist has a rich command framework for you to create custom commands that are available to everyone in chat or via command-line. Commands can be attached to chat notifications so that users can take action right there.
+</p></div></div>
+<div class="col-md-5 col-12"><img src="https://atomist.com/img/SDM-Circle-Diagram.png" class="img-fluid"></img></div>
+<div class="col-md-6 col-12">
+		<div class="left"><h3>ChatOps</h3><p>Put complete visibility into the delivery flow in front of everyone in your team with correlated and actionable notifications directly in chat. Notifications keep everyone up to speed. Native chatops with bot support in Slack and Microsoft Teams means better team alignment and collaboration.
+</p></div>
+<div class="left"><h3>Event Hub
 </h3><p>Atomist is an event-driven delivery platform that captures events from all stages of development delivery, correlates events to track the flow of activity, triggers automation action from any event, and logs activity for a full audit trail.
-</p></div></li>
-<li><div><h3>Cortex
+</p></div>
+
+</div>
+<div class="mx-auto col-md-10 col-12"><div class="left"><h3>Cortex
 </h3><p>Cortex is Atomist’s queryable graph database of correlated events and information related to your projects. Use it for reporting, commands and notifications.
-</p></div></li>
-<li><div><h3>Integrations</h3><p>Bi-directional integration with third-party tools used in your development and delivery flow means Atomist receives events, and also integrates with those tools APIs to directly execute delivery stages.
-</p></div></li>
-</ul>
-<div class="w-100 lightgrey pad">
-<h5>Get Your Own Software Delivery Machine</h5>
+</p></div></div>
+<div class="mx-auto col-md-10 col-12"><div class="left"><h3>Integrations</h3><p>Bi-directional integration with third-party tools used in your development and delivery flow means Atomist receives events, and also integrates with those tools APIs to directly execute delivery stages.
+</p></div></div>
+</div>
+<br>
+<br>
+<br>
+
+<div class="lightgrey pad row bigpadtopbottom">
+<h5 class="mx-auto">Get Your Own Software Delivery Machine</h5>
+<br>
 <br>
 <div class="row">
-<div class="col-md-5 mx-auto white"><h6>Cloud-Hosted SDM
+<div class="col-md-5 ml-auto white left testpad"><span class=""><h6>Cloud-Hosted SDM
 </h6><p>Atomist hosted SDM for delivering Node apps to Kubernetes.
-</p><ul><li>Atomist cloud-hosted SDM</li><li>Works with GitHub.com
-</li><li>Delivery for Node apps to Kubernetes built-in
-</li><li>Create and deliver Node applications
-</li><li>Automatic autofix (lint), build, test, Docker build and deploy to Docker registry
-</li><li>Test deploy to Atomist-hosted Kubernetes cluster
-</li><li>Deploy to your own Kubernetes cluster
+</p></span><ul><li><p>Atomist cloud-hosted SDM</p></li><li><p>Works with GitHub.com</p>
+</li><li><p>Delivery for Node apps to Kubernetes built-in</p>
+</li><li><p>Create and deliver Node applications</p>
+</li><li><p>Automatic autofix (lint), build, test, Docker build and deploy to Docker registry</p>
+</li><li><p>Test deploy to Atomist-hosted Kubernetes cluster</p>
+</li><li><p>Deploy to your own Kubernetes cluster</p>
 </li></ul><h6></h6><p>Get started delivering Node applications right now.</p><button class="darkgreenbutton">Get Started for free</button></div>
-<div class="col-md-5 mx-auto white"><h6>Self Hosted SDM</h6><h6>Fully customizable delivery for multiple language stacks and deployment environments.</h6><ul><li>Run SDM anywhere (self-hosted)</li><li>Use and customize pre-built SDMs
-</li><li>Integrate with on-premises development and deployment tools
-</li><li>Use with GitHub, BitBucket or GitLab
-</li><li>Add functionality with Extension Packs
-</li></ul><h6>Get started with your own SDM right now.
-</h6><button class="darkgreenbutton">Install</button></div>
+<div class="col-md-5 mx-auto white left testpad"><h6>Self Hosted SDM</h6><p>Fully customizable delivery for multiple language stacks and deployment environments.</p><ul><li><p>Run SDM anywhere (self-hosted)</li><li><p>Use and customize pre-built SDMs</p>
+</li><li><p>Integrate with on-premises development and deployment tools</p>
+</li><li><p>Use with GitHub, BitBucket or GitLab</p>
+</li><li><p>Add functionality with Extension Packs</p>
+</li></ul><p>Get started with your own SDM right now.
+</p><button class="darkgreenbutton">Install</button></div>
 </div>
 </div>
 
-<div class="w80 left">
-<h3 class="left bbot">The Latest from Atomist</h3>
+<div class="w80 left pad bigmar">
+<h5 class="left bbot">The Latest from Atomist</h5>
 <div class="row marb"><div class="col-3"><img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" width="200" height="150"></img></div><div class="col mr-auto"><p class="grey vv">Posted by Atomist</p><h5>Community Happy Hours with Atomist Engineering at Mikkeller London</h5><p class="darkgrey">We're hosting happy hours at Mikkeller Bar in Shoreditch this evening. Come by for a drink and high five an Atomist engineer. 🙌</p><button class="readmore">Read Article</button></div></div>
 
 <div class="row marb"><div class="col-3"><img src="https://images.unsplash.com/photo-1521200379774-e541c236ea33?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" width="200" height="150"></img></div><div class="col mr-auto"><p class="grey vv">
@@ -105,9 +128,15 @@ Posted by Rod Johnson</p><h5>This Will Surprise You</h5><p class="darkgrey">How 
 <div class="row marb"><div class="col-3"><img class="img-fluid sha" src="https://images.unsplash.com/photo-1556816723-1ce827b9cfbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=683&q=80" width="200" height="150"></img></div><div class="col mr-auto"><p class="grey vv">
 Posted by Jessica Kerr</p><h5>Control vs Flexibility: what do we centralize?</h5><p class="darkgrey">Centralization/decentralization is a pernicious tradeoff in development. Do we value consistency or flexibility? To defeat this tradeoff, draw the lines in the right place.</p><button class="readmore">Read Article</button></div></div>
 </div>
-<h2>Ready to try Atomist?</h2>
+<div class="banner bigpad row">
+<div class="col">
+<span class="whitetext">
+<h2 class="">Ready to try Atomist?</h2>
 <p>Go from brand new project to deployed in minutes.</p>
+</span>
 <button class="getstarted pad">Get Started for Free</button>
+</div>
+</div>
 <div class="row w-50 vv mx-auto">
 <div class="col">
 <div>Pricing</div>
