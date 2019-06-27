@@ -1,0 +1,166 @@
+html, body {
+	height:100%;
+}
+
+.mrf {
+	margin-left:3rem;
+}
+
+.marb {
+	margin-bottom:3rem;
+}
+
+.bigmar {
+	margin-top:3rem;
+	margin-bottom:3rem;
+}
+
+.ffv {
+	width:320px;
+	right:0;
+	left:0;
+}
+
+.right {
+	text-align:right;
+}
+
+.left {
+	text-align:initial;
+}
+
+.bbot {
+	border-bottom:1px solid lightgrey;
+	
+}
+
+.big {
+	font-size:1.5rem;
+}
+
+.vv {
+	font-size:0.9rem;
+}
+.white {
+	background-color:#fff;
+}
+
+.sha {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grey {
+	opacity:0.5;
+}
+
+.darkgrey {
+	opacity:0.7;
+}
+
+.lightgrey {
+	background-color:#f7f7f7;
+}
+
+.border {
+	border:2px solid;
+}
+
+.lol {
+	width:150px;
+	height:150px;
+}
+
+.w70 {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.w80 {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.littlegrey {
+	color:#C1B9C4;
+}
+
+.readmore {
+	color:#60BE9A;
+	background-color:white;
+	border-color:#60BE9A;
+	border-radius:5px;
+	border:2px solid;
+}
+
+.darkgreenbutton {
+	background-color:#227F7E;
+	color:white;
+	border:none;
+	border-radius:5px;
+	padding:7px;
+}
+
+.whitetext {
+	color:white !important;
+}
+
+.getstarted {
+	background-color:#5bc399;
+	color:white;
+	border:none;
+	border-radius:5px;
+	font-weight:600;
+}
+
+.pad {
+	padding:0.8rem;
+}
+
+.testpad {
+	padding:1.5rem;
+}
+
+.mar3 {
+	margin-right:50px;
+}
+.center {
+	text-align:center;
+}
+
+.nopad {
+	margin-right:-15px;
+	margin-left:-15px;
+}
+
+.bigpadtopbottom {
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+
+.bigpad {
+	padding:3rem;
+}
+
+.mar {
+	margin:10px;
+}
+
+.grid {
+	width:45%;
+}
+
+.cen {
+	justify-content:center;
+}
+
+.banner {
+	background-image:url("https://atomist.com/img/banners/CTA-banner-texture.jpg");
+}
+
+.banner2 {
+	background-image:url("https://atomist.com/img/banners/atomist_logo_shapes_banner-home.jpg");
+	background-repeat:no-repeat;
+	background-position:top center;
+}
