@@ -118,6 +118,14 @@ html, body {
 	padding:0.8rem;
 }
 
+.opa07 {
+	opacity:0.7;
+}
+
+.opa05 {
+	opacity:0.5;
+}
+
 .testpad {
 	padding:1.5rem;
 }
@@ -125,6 +133,11 @@ html, body {
 .mar3 {
 	margin-right:50px;
 }
+
+.blackgreen {
+	color:#297d7d;
+}
+
 .center {
 	text-align:center;
 }
@@ -163,4 +176,35 @@ html, body {
 	background-image:url("https://atomist.com/img/banners/atomist_logo_shapes_banner-home.jpg");
 	background-repeat:no-repeat;
 	background-position:top center;
+}
+
+@media (max-width:768px) {
+	
+	.firstorder {
+		order:-1;
+	}
+	
+	.vv {
+		margin:auto;
+	}
+}
+
+.colorInterface {
+	color:#007bbd;
+}
+
+.colorChatOps {
+	color:#5bbcc3;
+}
+
+.colorEvent {
+	color:#c6dd72;
+}
+
+.colorCortex {
+	color:#227f7e;
+}
+
+.colorIntegrations {
+	color:#1a2836;
 }
